@@ -1,8 +1,53 @@
 /* Additional styles */
 
 body {
+  background-color: rgb(251, 251, 251);
+  /*color: rgb(68,68,68);*/
+  /*why is this here, and what's the difference between this and background-color?*/
   font-family: "Open Sans";
 }
+
+.navbar {
+  background-color: white;
+}
+
+.navbar a {
+  color: rgb(0,126,229) !important;
+  /*i dont really get how this css works; where does is the "navbar a" in the html, why use !important?*/
+}
+
+.get-started-now {
+  background-color: white;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+
+h4 {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+footer li{
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+  /*why no period? ask a question about this*/
+}
+
+.padding-foot-bottom{
+  padding-bottom: 100px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
 
 /* My standard vertical spacing classes */
 
